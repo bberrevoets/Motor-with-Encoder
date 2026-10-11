@@ -1,0 +1,5 @@
+{
+  // README.md is Yahboom's upstream text and stays exactly as upstream has it (see AGENTS.md); the rules live in
+  // .markdownlint.json
+  "ignores": ["README.md"]
+}

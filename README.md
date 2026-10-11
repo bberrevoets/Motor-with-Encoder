@@ -27,3 +27,30 @@ https://www.facebook.com/yahboomtech
 ### Technical support email: 
 support@yahboom.com
 
+## This fork
+
+Bert Berrevoets' fork of [YahboomTechnology/Motor-with-Encoder](https://github.com/YahboomTechnology/Motor-with-Encoder),
+kept in sync with it. Everything above this section is Yahboom's README, unchanged. This section and the ones below,
+and the agent, changelog and configuration files, belong to the fork.
+
+## Conventions
+
+- **Branching:** GitHub Flow. `main` is protected and accepts changes only through pull requests — upstream syncs
+  too; the steps are in [AGENTS.md](AGENTS.md).
+- **Markdown:** linted with `markdownlint-cli2`, 180 character limit. This README is excluded
+  (`.markdownlint-cli2.jsonc`), so Yahboom's text stays as upstream has it.
+
+  ```sh
+  npx markdownlint-cli2 "**/*.md"
+  ```
+
+- **Binaries:** the PDFs and the product photo are Yahboom's and stay plain git files, not Git LFS, so this fork keeps
+  sharing its history with upstream. A plain `git clone` gets everything. The source code that goes with the
+  tutorials is on Google Drive, linked from the two `Annex_Download_Link.txt` files.
+- **Agent instructions:** in [AGENTS.md](AGENTS.md), read by Claude Code, Codex and any other coding agent.
+  `CLAUDE.md` only imports it, so edit `AGENTS.md`.
+
+## Authors
+
+- Tutorials, documents, photo and the README text above: [Yahboom Technology](https://category.yahboom.net/products/encoder-tt-motor)
+- Fork maintenance and agent setup: Bert Berrevoets — Berrevoets Systems — <bert@berrevoets.net>
